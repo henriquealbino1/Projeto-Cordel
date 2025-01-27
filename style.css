@@ -31,40 +31,62 @@ header > h1{
     font-size: 10vw;
 }
 
-body div{
-    height: 300px;
-    border: 1px solid black;
+header p{
+    padding: 50px;
 }
 
-body p{
-    text-align: inherit;
-    padding: 30px;
-    font-family: "Sriracha", serif;
+header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
 }
+
+header a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    height: 200px;
+    line-height: 2em;
+    border: 1px solid black;
+    font-family: "Sriracha", serif; 
+}
+
 
 .foto1{
     background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
-    color: white;
 }
 
 .foto1 p{
+    color: white;
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.336);
+    text-shadow: 1px 1px 0px black;
+}
+
+.foto2{
+    background-image: url(imagens/background002.jpg);
+
+}
+
+.foto2 p{
+    color: white;
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.514);
     text-shadow: 1px 1px 0px black;
 }
 
-.foto2{
-    background-image: url(imagens/background002.jpg);
-}
-
-footer{
-    text-align: center;
+footer {
     background-color: black;
     color: white;
-    padding: 10px;
-    
+    text-align: center;   
+    padding: 10px; 
 }
