@@ -28,7 +28,7 @@ header > h1{
     font-variant: small-caps;
     padding: 50px;
     font-family: "Passion One", serif;
-    font-size: 10vw;
+    font-size: 7vw;
 }
 
 header p{
@@ -54,13 +54,16 @@ section{
     border: 1px solid black;
     font-family: "Sriracha", serif; 
 }
-
+ /*    Para fazer o efeito parallax, use:*/
+/*     background-attachment: fixed;    */
 
 .foto1{
     background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right center;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.205);
+    background-attachment: fixed;
 }
 
 .foto1 p{
@@ -72,7 +75,9 @@ section{
 }
 
 .foto2{
+    box-shadow: inset 6px 6px 13px 0px black;
     background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
 
 }
 
